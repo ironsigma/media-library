@@ -65,6 +65,10 @@ try:
     os.unlink('media.db')
 except OSError: pass
 
+try:
+    os.unlink('media.db-journal')
+except OSError: pass
+
 db = create_database('sqlite:///media.db')
 store = Store(db)
 

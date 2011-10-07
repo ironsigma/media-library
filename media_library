@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 from storm.locals import Store, create_database
 from service import MediaService
+from model import Media
 import os
 import math
 import subprocess
@@ -43,7 +44,7 @@ class MediaLibrary:
         self._table = gtk.Table(rows, self.COLS)
         row = 0
         col = 0
-        for media in media_list:
+        for media in media_list.order_by(Media.title):
             if row >= self.COLS:
                 row = 0
                 col += 1

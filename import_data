@@ -1,0 +1,78 @@
+#!/usr/bin/env python
+from storm.locals import Store, create_database
+from model import Tag, Media, create_schema
+import json
+import os
+
+tag_list = dict()
+media_list = dict()
+
+def as_object(obj):
+    if '__tag__' in obj:
+        tag = Tag(obj['name'])
+
+        if 'desc' in obj:
+            tag.description = obj['desc']
+
+        if 'id' in obj:
+            tag_list[obj['id']] = tag
+
+        if 'parent' in obj:
+            if obj['parent'] in tag_list:
+                tag.parent = tag_list[obj['parent']]
+
+        store.add(tag)
+        return tag
+
+    if '__media__' in obj:
+        media = Media(obj['title'], obj['type'])
+
+        if 'file' in obj:
+            media.file = obj['file']
+
+        if 'cover' in obj:
+            media.cover = obj['cover']
+
+        if 'description' in obj:
+            media.description = obj['description']
+
+        if 'release' in obj:
+            media.release = int(obj['release'])
+
+        if 'tags' in obj:
+            for tag in obj['tags']:
+                if tag in tag_list:
+                    media.tags.add(tag_list[tag])
+                else:
+                    new_tag = Tag(tag)
+                    store.add(new_tag)
+                    tag_list[tag] = new_tag
+                    media.tags.add(new_tag)
+
+        if 'id' in obj:
+            media_list[obj['id']] = media
+
+        if 'parent' in obj:
+            if obj['parent'] in media_list:
+                media.parent = media_list[obj['parent']]
+
+        store.add(media)
+        return media
+
+    return obj
+
+try:
+    os.unlink('media.db')
+except OSError: pass
+
+db = create_database('sqlite:///media.db')
+store = Store(db)
+
+create_schema(store, 'media.db')
+store.flush()
+
+datafile = open('data.json', 'r')
+objects = json.load(datafile, object_hook=as_object)
+
+store.flush()
+store.commit()

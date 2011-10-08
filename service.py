@@ -1,4 +1,5 @@
 from model import Media, Tag
+from storm.expr import And
 
 class TagService:
     store = None
@@ -25,7 +26,7 @@ class MediaService:
         return self.store.get(Media, id)
 
     def find_by_parent(self, parent=None):
-        return self.store.find(Media, Media.parent == parent)
+        return self.store.find(Media, And(Media.rated == u'G', And(Media.parent == parent, Media.type == Media.MOVIE)))
 
 if __name__ == '__main__':
     from storm.locals import Store, create_database

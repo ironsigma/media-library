@@ -30,7 +30,7 @@ class MediaLibrary:
 
         scrolled_window = gtk.ScrolledWindow()
         scrolled_window.set_policy(gtk.POLICY_AUTOMATIC, gtk.POLICY_AUTOMATIC)
-        window.vbox.pack_start(self._menu_bar(), False, False, 2)
+        #window.vbox.pack_start(self._menu_bar(), False, False, 2)
         window.vbox.pack_start(scrolled_window, True, True, 0)
 
         # fetch media
@@ -104,7 +104,7 @@ class MediaLibrary:
         button = gtk.Button()
         button.add(image)
 
-        self._tooltips.set_tip(button, media.title)
+        self._tooltips.set_tip(button, media.title + ' (' + str(media.release) + ')')
         self._table.attach(button, row, row + 1, col, col + 1)
         button.connect("clicked", self._button_clicked, self.MOVIES + media.file)
 

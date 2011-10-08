@@ -42,6 +42,7 @@ class Media(object):
     cover = Unicode()
     title = Unicode()
     release = Int()
+    rated = Unicode()
     description = Unicode(name='desc')
 
     # references
@@ -54,8 +55,8 @@ class Media(object):
         self.type = type
 
     def __str__(self):
-        return "id: %s, parent_id: %s, title: %s, type: %s, file: %s, cover: %s, release: %s, description: %s" % (
-                self.id, self.parent_id, self.title, self.type, self.file, self.cover, self.release, self.description)
+        return "id: %s, parent_id: %s, title: %s, type: %s, file: %s, cover: %s, release: %s, rated: %s,  description: %s" % (
+                self.id, self.parent_id, self.title, self.type, self.file, self.cover, self.release, self.rated, self.description)
 
 def create_schema(store, file):
     store.execute('''CREATE TABLE media (
@@ -66,6 +67,7 @@ def create_schema(store, file):
             cover TEXT,
             title TEXT,
             release INTEGER,
+            rated TEXT,
             desc TEXT)''')
 
     store.execute('''CREATE TABLE media_tag (

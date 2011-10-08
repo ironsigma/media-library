@@ -39,6 +39,9 @@ def as_object(obj):
         if 'release' in obj:
             media.release = int(obj['release'])
 
+        if 'rated' in obj:
+            media.rated = obj['rated']
+
         if 'tags' in obj:
             for tag in obj['tags']:
                 if tag in tag_list:

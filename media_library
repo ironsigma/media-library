@@ -14,7 +14,7 @@ class MediaLibrary:
     MOVIES = '/data/Media/Movies/Children/'
     COLS = 7
     THUMB_WIDTH = 142
-    THUMB_SPACING = 12
+    THUMB_SPACING = 16
     ASPECT_RATIO = 1.4
     WINDOW_HEIGHT = 650
 
@@ -26,6 +26,7 @@ class MediaLibrary:
         window = gtk.Dialog()
         window.connect('destroy', self._close_application)
         window.set_title('Movies')
+        window.icon = gtk.gdk.pixbuf_new_from_file('media_library.png')
         window.set_size_request((self.THUMB_WIDTH + self.THUMB_SPACING) * self.COLS, self.WINDOW_HEIGHT)
 
         scrolled_window = gtk.ScrolledWindow()

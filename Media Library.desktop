@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Media Library
+Comment=Media launcher
+Path=/home/isabelle/bin
+Exec=python media_library
+Icon=/home/isabelle/bin/media_library.png

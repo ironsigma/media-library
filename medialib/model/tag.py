@@ -1,19 +1,25 @@
-from storm.locals import Int, Unicode, Reference, ReferenceSet
+from sqlalchemy import Column, ForeignKey, Integer, String
+from sqlalchemy.orm import relationship, backref
+from ..model import Base
 
-class Tag(object):
-    __storm_table__ = 'tag'
+class Tag(Base):
+    __tablename__ = 'tag'
 
-    id = Int(primary=True)
-    parent_id = Int()
-    name = Unicode()
-    description = Unicode(name='desc')
+    id = Column(Integer, primary_key=True)
+    parent_id = Column(ForeignKey('tag.id'))
+    name = Column(String)
+    description = Column('desc', String)
 
-    parent = Reference(parent_id, id)
-    children = ReferenceSet(id, parent_id)
+    parent = relationship('Tag', remote_side=[id])
+    children = relationship('Tag')
 
     def __init__(self, name):
         self.name = name
 
-    def __str__(self):
-        return "id: %s, parent: %s, name: %s, description: %s" % (
-                self.id, self.parent_id, self.name, self.description)
+    def __repr__(self):
+        return "<Tag('%s', '%s','%s','%s')>" % (
+                self.id,
+                self.parent_id,
+                self.name,
+                self.description)
+

@@ -1,9 +1,7 @@
 #!/usr/bin/env python
-import sys
-sys.path.append('medialib')
-
-from storm.locals import Store, create_database
-from model import Tag, Media, create_schema
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from medialib.model import Base, Tag, Media
 import json
 import os
 
@@ -24,7 +22,7 @@ def as_object(obj):
             if obj['parent'] in tag_list:
                 tag.parent = tag_list[obj['parent']]
 
-        store.add(tag)
+        session.add(tag)
         return tag
 
     if '__media__' in obj:
@@ -48,12 +46,12 @@ def as_object(obj):
         if 'tags' in obj:
             for tag in obj['tags']:
                 if tag in tag_list:
-                    media.tags.add(tag_list[tag])
+                    media.tags.append(tag_list[tag])
                 else:
                     new_tag = Tag(tag)
-                    store.add(new_tag)
+                    session.add(new_tag)
                     tag_list[tag] = new_tag
-                    media.tags.add(new_tag)
+                    media.tags.append(new_tag)
 
         if 'id' in obj:
             media_list[obj['id']] = media
@@ -62,27 +60,28 @@ def as_object(obj):
             if obj['parent'] in media_list:
                 media.parent = media_list[obj['parent']]
 
-        store.add(media)
+        session.add(media)
         return media
 
     return obj
 
 try:
-    os.unlink('media.db')
+    os.unlink('medialib.db')
 except OSError: pass
 
 try:
-    os.unlink('media.db-journal')
+    os.unlink('medialib.db-journal')
 except OSError: pass
 
-db = create_database('sqlite:///media.db')
-store = Store(db)
+engine = create_engine('sqlite:///medialib.db', echo=True)
+Session = sessionmaker(bind=engine)
+session = Session()
 
-create_schema(store, 'media.db')
-store.flush()
+Base.metadata.create_all(engine)
+session.flush()
 
-datafile = open('data.json', 'r')
+datafile = open('medialib.json', 'r')
 objects = json.load(datafile, object_hook=as_object)
 
-store.flush()
-store.commit()
+session.flush()
+session.commit()

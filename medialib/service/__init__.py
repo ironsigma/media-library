@@ -1,5 +1,5 @@
-from media_service import MediaService
-from tag_service import TagService
+from .media import MediaService
+from .tag import TagService
 
-del media_service
-del tag_service
+del media
+del tag

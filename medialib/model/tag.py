@@ -1,8 +1,8 @@
 from sqlalchemy import Column, ForeignKey, Integer, String
 from sqlalchemy.orm import relationship, backref
-from ..model import Base
+from ..model import TableBase
 
-class Tag(Base):
+class Tag(TableBase):
     __tablename__ = 'tag'
 
     id = Column(Integer, primary_key=True)
@@ -22,4 +22,3 @@ class Tag(Base):
                 self.parent_id,
                 self.name,
                 self.description)
-

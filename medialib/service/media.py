@@ -1,8 +1,6 @@
 from ..model import Media
 
 class MediaService:
-    session = None
-
     def __init__(self, session):
         self.session = session
 

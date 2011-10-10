@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from medialib.model import Base, Tag, Media
+from medialib.model import TableBase, Tag, Media
 import json
 import os
 
@@ -77,7 +77,7 @@ engine = create_engine('sqlite:///medialib.db', echo=True)
 Session = sessionmaker(bind=engine)
 session = Session()
 
-Base.metadata.create_all(engine)
+TableBase.metadata.create_all(engine)
 session.flush()
 
 datafile = open('medialib.json', 'r')

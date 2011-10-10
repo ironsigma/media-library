@@ -1,9 +1,11 @@
+"""The database model used to store media"""
+
 from sqlalchemy import Column, ForeignKey, Integer, Table
 from sqlalchemy.ext.declarative import declarative_base
 
-Base = declarative_base()
+TableBase = declarative_base()
 
-media_tag = Table('media_tag', Base.metadata,
+_media_tag = Table('media_tag', TableBase.metadata,
         Column('media_id', Integer, ForeignKey('media.id')),
         Column('tag_id', Integer, ForeignKey('tag.id'))
 )

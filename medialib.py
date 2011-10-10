@@ -17,7 +17,7 @@ class MediaLibrary:
     THUMB_SPACING = 16
 
     def __init__(self):
-        self.THUMB_HEIGHT = self.THUMB_WIDTH * self.ASPECT_RATIO
+        MediaLibrary.THUMB_HEIGHT = MediaLibrary.THUMB_WIDTH * MediaLibrary.ASPECT_RATIO
 
         # fetch media
         engine = create_engine('sqlite:///medialib.db', echo=True)
@@ -27,12 +27,12 @@ class MediaLibrary:
 
         # movie table
         media_list = media_service.find()
-        rows = int(math.ceil(media_list.count() / float(self.COLS)))
-        print("table: %dx%d" % (rows, self.COLS))
+        rows = int(math.ceil(media_list.count() / float(MediaLibrary.COLS)))
+        print("table: %dx%d" % (rows, MediaLibrary.COLS))
         row = 0
         col = 0
         for media in media_list:
-            if row >= self.COLS:
+            if row >= MediaLibrary.COLS:
                 row = 0
                 col += 1
             self._add_movie(row, col, media)
@@ -48,9 +48,9 @@ class MediaLibrary:
         else:
             cover = media.cover
 
-        #print("cover: (%dx%d) %s%s" % (self.THUMB_WIDTH, self.THUMB_HEIGHT, self.COVERS, cover))
+        #print("cover: (%dx%d) %s%s" % (MediaLibrary.THUMB_WIDTH, MediaLibrary.THUMB_HEIGHT, MediaLibrary.COVERS, cover))
         #print("added at: %d, %d" % (row, col))
-        #print('file: %s%s' % (self.MOVIES, media.file))
+        #print('file: %s%s' % (MediaLibrary.MOVIES, media.file))
 
 if __name__ == '__main__':
     MediaLibrary()

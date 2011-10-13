@@ -20,7 +20,7 @@ class MediaLibrary:
         MediaLibrary.THUMB_HEIGHT = MediaLibrary.THUMB_WIDTH * MediaLibrary.ASPECT_RATIO
 
         # fetch media
-        engine = create_engine('sqlite:///medialib.db', echo=True)
+        engine = create_engine('sqlite:///medialib.db', echo=False)
         Session = sessionmaker(bind=engine)
         session = Session()
         media_service = MediaService(session)
@@ -47,6 +47,17 @@ class MediaLibrary:
             cover = 'no_cover.jpg'
         else:
             cover = media.cover
+
+        print(media)
+
+        if media.rating is not None:
+            print(media.rating)
+
+        if len(media.subratings) > 0:
+            print(media.subratings)
+
+        if len(media.tags) > 0:
+            print(media.tags)
 
         #print("cover: (%dx%d) %s%s" % (MediaLibrary.THUMB_WIDTH, MediaLibrary.THUMB_HEIGHT, MediaLibrary.COVERS, cover))
         #print("added at: %d, %d" % (row, col))

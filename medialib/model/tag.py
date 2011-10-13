@@ -8,17 +8,22 @@ class Tag(TableBase):
     id = Column(Integer, primary_key=True)
     parent_id = Column(ForeignKey('tag.id'))
     name = Column(String)
-    description = Column('desc', String)
+    desc = Column(String)
 
     parent = relationship('Tag', remote_side=[id])
     children = relationship('Tag')
 
-    def __init__(self, name):
+    def __init__(self, id=None, name=None, desc=None, parent=None, children=[]):
+        self.id = id
         self.name = name
+        self.desc = desc
+        self.parent = parent
+        self.children = children
 
     def __repr__(self):
-        return "<Tag('%s', '%s','%s','%s')>" % (
-                self.id,
-                self.parent_id,
-                self.name,
-                self.description)
+        return "Tag(id=%s, name=%s, desc=%s, parent=%s, children=%s)" % (
+                repr(self.id),
+                repr(self.name),
+                repr(self.desc),
+                repr(self.parent),
+                repr(self.children))

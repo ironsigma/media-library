@@ -1,23 +1,35 @@
-#!/usr/bin/env python
+import sys
+import math
+import subprocess
+
+# UI
+from PyQt4.QtGui import *
+from PyQt4.QtCore import *
+from medialib.ui import Cover
+
+# SQL
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from medialib.service import MediaService
 from medialib.model import Media
-import math
-#import subprocess
 
-class MediaLibrary:
-    COVERS = '/data/Media/Movies/Children/Covers/'
+class MediaLibrary(QWidget):
     MOVIES = '/data/Media/Movies/Children/'
     COLS = 7
-    WINDOW_HEIGHT = 650
+    THUMB_WIDTH = 143
+    THUMB_HEIGHT = 200 # THUMB_WIDTH * ASPECT_RATIO(1.4)
 
-    ASPECT_RATIO = 1.4
-    THUMB_WIDTH = 142
-    THUMB_SPACING = 16
+    def __init__(self, parent=None):
+        super(self.__class__, self).__init__(parent)
 
-    def __init__(self):
-        MediaLibrary.THUMB_HEIGHT = MediaLibrary.THUMB_WIDTH * MediaLibrary.ASPECT_RATIO
+        Cover.COVER_PATH = '/data/Media/Movies/Children/Covers/'
+
+        #ui
+        self.grid = QGridLayout()
+
+        pane = QWidget()
+        pane.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+        pane.setLayout(self.grid)
 
         # fetch media
         engine = create_engine('sqlite:///medialib.db', echo=False)
@@ -28,40 +40,35 @@ class MediaLibrary:
         # movie table
         media_list = media_service.find()
         rows = int(math.ceil(media_list.count() / float(MediaLibrary.COLS)))
-        print("table: %dx%d" % (rows, MediaLibrary.COLS))
         row = 0
         col = 0
         for media in media_list:
-            if row >= MediaLibrary.COLS:
-                row = 0
-                col += 1
+            if col >= MediaLibrary.COLS:
+                col = 0
+                row += 1
             self._add_movie(row, col, media)
-            row += 1
+            col += 1
 
-    def _start_movie(self, widget, data=None):
-        print("totem --replace %s" % (data))
-        #subprocess.Popen(['/usr/bin/totem', '--replace', data])
+        # add scroll area
+        scrollArea = QScrollArea()
+        scrollArea.setWidget(pane)
+
+        vbox = QVBoxLayout()
+        vbox.addWidget(scrollArea)
+        self.setLayout(vbox)
+
+    def _start_movie(self):
+        media = self.sender().media
+        subprocess.Popen(['/usr/bin/totem', '--replace', MediaLibrary.MOVIES + media.file])
 
     def _add_movie(self, row, col, media):
-        if media.cover is None:
-            cover = 'no_cover.jpg'
-        else:
-            cover = media.cover
-
-        print(media)
-
-        if media.rating is not None:
-            print(media.rating)
-
-        if len(media.subratings) > 0:
-            print(media.subratings)
-
-        if len(media.tags) > 0:
-            print(media.tags)
-
-        #print("cover: (%dx%d) %s%s" % (MediaLibrary.THUMB_WIDTH, MediaLibrary.THUMB_HEIGHT, MediaLibrary.COVERS, cover))
-        #print("added at: %d, %d" % (row, col))
-        #print('file: %s%s' % (MediaLibrary.MOVIES, media.file))
+        cover = Cover(self, media, MediaLibrary.THUMB_WIDTH, MediaLibrary.THUMB_HEIGHT)
+        self.grid.addWidget(cover, row, col)
+        cover.clicked.connect(self._start_movie)
 
 if __name__ == '__main__':
-    MediaLibrary()
+    app = QApplication(sys.argv)
+    panel = MediaLibrary()
+    panel.show()
+    sys.exit(app.exec_())
+    app.quit()

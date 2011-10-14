@@ -59,6 +59,8 @@ def as_object(obj):
 
         if 'cover' in obj:
             media.cover = obj['cover']
+        else:
+            media.cover = 'no_cover.jpg'
 
         if 'desc' in obj:
             media.desc = obj['desc']

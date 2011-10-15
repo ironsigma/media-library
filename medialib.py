@@ -52,20 +52,19 @@ class MediaLibrary(QMainWindow):
         self.move(qr.topLeft())
 
     def _create_menu_bar(self):
-        updateAction = QAction('Update...', self)
+        updateAction = QAction('Update', self)
         updateAction.setStatusTip('Update to latest version')
         updateAction.triggered.connect(self._update)
 
-        quitAction = QAction('Quit', self)
-        quitAction.setShortcut('Ctrl Q')
-        quitAction.setStatusTip('Quit application')
-        quitAction.triggered.connect(self.close)
+        aboutAction = QAction('About...', self)
+        aboutAction.setStatusTip('About Media Library')
+        aboutAction.triggered.connect(self._about)
 
         menubar = self.menuBar()
         fileMenu = menubar.addMenu('&File')
-        fileMenu.addAction(updateAction)
+        fileMenu.addAction(aboutAction)
         fileMenu.addSeparator()
-        fileMenu.addAction(quitAction)
+        fileMenu.addAction(updateAction)
 
     def _update(self):
         try:
@@ -119,6 +118,10 @@ class MediaLibrary(QMainWindow):
     def _restart(self):
         python = sys.executable
         os.execl(python, python, * sys.argv)
+
+    def _about(self):
+        version = open('VERSION', 'r').read()
+        QMessageBox.about(self, 'Media Library', version)
  
     def _fetch_covers(self):
         cover_list = []

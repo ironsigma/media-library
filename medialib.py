@@ -52,19 +52,55 @@ class MediaLibrary(QMainWindow):
         self.move(qr.topLeft())
 
     def _create_menu_bar(self):
-        updateAction = QAction('Update', self)
-        updateAction.setStatusTip('Update to latest version')
-        updateAction.triggered.connect(self._update)
+        self.setStatusBar(QStatusBar())
+        menubar = self.menuBar()
+
+        # file
+        fileMenu = menubar.addMenu('&File')
 
         aboutAction = QAction('About...', self)
         aboutAction.setStatusTip('About Media Library')
         aboutAction.triggered.connect(self._about)
-
-        menubar = self.menuBar()
-        fileMenu = menubar.addMenu('&File')
         fileMenu.addAction(aboutAction)
+
         fileMenu.addSeparator()
+
+        updateAction = QAction('Update', self)
+        updateAction.setStatusTip('Update to latest version')
+        updateAction.triggered.connect(self._update)
         fileMenu.addAction(updateAction)
+
+        # view
+        viewMenu = menubar.addMenu('&View')
+
+        # rating
+        ratingMenu = viewMenu.addMenu('&Rating')
+
+        gRatingAction = QAction('G', self)
+        gRatingAction.setCheckable(True)
+        gRatingAction.setChecked(True)
+        ratingMenu.addAction(gRatingAction)
+
+        pgRatingAction = QAction('PG', self)
+        pgRatingAction.setCheckable(True)
+        ratingMenu.addAction(pgRatingAction)
+
+        pg13RatingAction = QAction('PG-13', self)
+        pg13RatingAction.setCheckable(True)
+        ratingMenu.addAction(pg13RatingAction)
+
+        # types
+        typeMenu = viewMenu.addMenu('&Type')
+
+        movieAction = QAction('Movies', self)
+        movieAction.setCheckable(True)
+        movieAction.setChecked(True)
+        typeMenu.addAction(movieAction)
+
+        showAction = QAction('Shows', self)
+        showAction.setCheckable(True)
+        movieAction.setChecked(True)
+        typeMenu.addAction(showAction)
 
     def _update(self):
         try:

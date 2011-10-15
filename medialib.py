@@ -71,11 +71,12 @@ class MediaLibrary(QMainWindow):
         try:
 
             print('Updating code ...')
-            output = subprocess.check_output(['/usr/bin/git', 'pull', '--rebase'], stderr=subprocess.STDOUT)
-            print('Code updated: [%s]' % output)
+            output = subprocess.check_output(['/usr/bin/git', 'pull', '--rebase'],
+                    stderr=subprocess.STDOUT).decode('utf-8')
 
         except subprocess.CalledProcessError as perror:
-            print('Error updating source, return code (%s)\n[%s]' % (perror.returncode, perror.output))
+            self._show_dialog_message('Program Update', 'Error updating program files.',
+                    'Return code: %s\nOutput:\n%s' % (perror.returncode, perror.output.decode('utf-8')))
             return
 
         print('Wiping database ...')
@@ -102,6 +103,23 @@ class MediaLibrary(QMainWindow):
         session.flush()
         session.commit()
 
+        self._show_dialog_message('Program Update',
+                'Update completed and will now restart.', 'Output:\n%s' % output,
+                QMessageBox.Information)
+        self._restart()
+
+    def _show_dialog_message(self, title, message, details, type=QMessageBox.Critical):
+        msgBox = QMessageBox()
+        msgBox.setWindowTitle(title)
+        msgBox.setIcon(QMessageBox.Critical)
+        msgBox.setText(message)
+        msgBox.setDetailedText(details)
+        msgBox.exec_()
+
+    def _restart(self):
+        python = sys.executable
+        os.execl(python, python, * sys.argv)
+ 
     def _fetch_covers(self):
         cover_list = []
 

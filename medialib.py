@@ -20,7 +20,7 @@ class MediaLibrary(QWidget):
     MOVIES = '/data/Media/Movies/Children/'
     THUMB_WIDTH = 143
     THUMB_HEIGHT = 200
-    THUMB_SPACING = 8
+    THUMB_SPACING = 7
 
     def __init__(self, parent=None):
         super(self.__class__, self).__init__(parent)
@@ -42,8 +42,15 @@ class MediaLibrary(QWidget):
 
         # add layout area to window
         self.setLayout(layout)
-        self.setGeometry(100, 50, 1410, 800)
+        self.resize(1375, 800)
+        self.center()
         self.setWindowTitle('Media Library')
+
+    def center(self):
+        qr = self.frameGeometry()
+        cp = QDesktopWidget().availableGeometry().center()
+        qr.moveCenter(cp)
+        self.move(qr.topLeft())
 
     def _fetch_covers(self):
         cover_list = []

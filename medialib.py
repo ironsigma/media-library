@@ -1,4 +1,6 @@
 import sys
+import os
+import json
 import math
 import subprocess
 
@@ -12,11 +14,12 @@ from medialib.ui import CoverTable
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from medialib.service import MediaService
-from medialib.model import Media
+from medialib.service import ImportJson
+from medialib.model import TableBase, Media
 
 Cover.COVER_PATH = '/data/Media/Movies/Children/Covers/'
 
-class MediaLibrary(QWidget):
+class MediaLibrary(QMainWindow):
     MOVIES = '/data/Media/Movies/Children/'
     THUMB_WIDTH = 143
     THUMB_HEIGHT = 200
@@ -24,6 +27,7 @@ class MediaLibrary(QWidget):
 
     def __init__(self, parent=None):
         super(self.__class__, self).__init__(parent)
+        self._create_menu_bar()
 
         # build table
         table = CoverTable(width=self.THUMB_WIDTH, height=self.THUMB_HEIGHT, spacing=self.THUMB_SPACING)
@@ -35,13 +39,8 @@ class MediaLibrary(QWidget):
         scrollArea.setWidget(table)
         scrollArea.setWidgetResizable(True)
 
-        # add scroll area to layout
-        layout = QHBoxLayout()
-        layout.setContentsMargins(0, 0, 0, 0)
-        layout.addWidget(scrollArea)
-
-        # add layout area to window
-        self.setLayout(layout)
+        # add scrollArea to window
+        self.setCentralWidget(scrollArea)
         self.resize(1375, 800)
         self.center()
         self.setWindowTitle('Media Library')
@@ -51,6 +50,57 @@ class MediaLibrary(QWidget):
         cp = QDesktopWidget().availableGeometry().center()
         qr.moveCenter(cp)
         self.move(qr.topLeft())
+
+    def _create_menu_bar(self):
+        updateAction = QAction('Update...', self)
+        updateAction.setStatusTip('Update to latest version')
+        updateAction.triggered.connect(self._update)
+
+        quitAction = QAction('Quit', self)
+        quitAction.setShortcut('Ctrl Q')
+        quitAction.setStatusTip('Quit application')
+        quitAction.triggered.connect(self.close)
+
+        menubar = self.menuBar()
+        fileMenu = menubar.addMenu('&File')
+        fileMenu.addAction(updateAction)
+        fileMenu.addSeparator()
+        fileMenu.addAction(quitAction)
+
+    def _update(self):
+        try:
+
+            print('Updating code ...')
+            output = subprocess.check_output(['/usr/bin/git', 'pull', '--rebase'], stderr=subprocess.STDOUT)
+            print('Code updated: [%s]' % output)
+
+        except subprocess.CalledProcessError as perror:
+            print('Error updating source, return code (%s)\n[%s]' % (perror.returncode, perror.output))
+            return
+
+        print('Wiping database ...')
+        try:
+            os.unlink('medialib.db')
+        except OSError: pass
+
+        try:
+            os.unlink('medialib.db-journal')
+        except OSError: pass
+
+        print('Loading database ...')
+        engine = create_engine('sqlite:///medialib.db', echo=False)
+        Session = sessionmaker(bind=engine)
+        session = Session()
+
+        TableBase.metadata.create_all(engine)
+        session.flush()
+
+        json_import = ImportJson(session)
+        datafile = open('medialib.json', 'r')
+        objects = json.load(datafile, object_hook=json_import.to_media_object)
+
+        session.flush()
+        session.commit()
 
     def _fetch_covers(self):
         cover_list = []

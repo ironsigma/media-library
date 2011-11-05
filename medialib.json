@@ -1538,4 +1538,186 @@
     "tags": ["Bear", "Old", "Hana Barbera"],
     "rating": "TV-Y7",
     "subratings": ["FV", "L"]
+},{
+    "__media__": true,
+    "title": "MLP Friendship is Magic (Part 1)",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 01 - Friendship is Magic (Part 1).avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP Friendship is Magic (Part 2)",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 02 - Friendship is Magic (Part 2).avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP The Ticket Master",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 03 - The Ticket Master.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP Applebuck Season",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 04 - Applebuck Season.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP Griffon the Brush-Off",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 05 - Griffon the Brush-Off.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP Boast Busters",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 06 - Boast Busters.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP Dragonshy",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 07 - Dragonshy.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP Look Before You Sleep",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 08 - Look Before You Sleep.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP Bridle Gossip",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 09 - Bridle Gossip.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP Swarm of the Century",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 10 - Swarm of the Century.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP Winter Wrap Up",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 11 - Winter Wrap Up.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP Call of the Cutie",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 12 - Call of the Cutie.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP Fall Weather Friends",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 13 - Fall Weather Friends.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP Suited for Success",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 14 - Suited for Success.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP Feeling Pinkie Keen",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 15 - Feeling Pinkie Keen.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP Sonic Rainboom",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 16 - Sonic Rainboom.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP Stare Master",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 17 - Stare Master.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP The Show Stoppers",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 18 - The Show Stoppers.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP A Dog and Pony Show",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 19 - A Dog and Pony Show.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP Green Isn't Your Color",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 20 - Green Isn't Your Color.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP Over a Barrel",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 21 - Over a Barrel.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP A Bird in the Hoof",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 22 - A Bird in the Hoof.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP The Cutie Mark Chronicles",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 23 - The Cutie Mark Chronicles.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP Owl's Well That Ends Well",
+    "type": "Show",
+    "cover": "mlp-owl.png",
+    "file": "MLP - Friendship is Magic - 24 - Owl's Well That Ends Well.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP Party of One",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 25 - Party of One.avi",
+    "rating": "G"
+},{
+    "__media__": true,
+    "title": "MLP The Best Night Ever",
+    "type": "Show",
+    "cover": "pony.jpg",
+    "file": "MLP - Friendship is Magic - 26 - The Best Night Ever.avi",
+    "rating": "G"
 }]

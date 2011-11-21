@@ -27,6 +27,8 @@ class MediaLibrary(QMainWindow):
 
     def __init__(self, parent=None):
         super(self.__class__, self).__init__(parent)
+        self.settings = QSettings('IzyLab', 'MediaLib')
+        self._check_db_update()
         self._create_menu_bar()
 
         # build table
@@ -114,14 +116,34 @@ class MediaLibrary(QMainWindow):
                     'Return code: %s\nOutput:\n%s' % (perror.returncode, perror.output.decode('utf-8')))
             return
 
-        print('Wiping database ...')
-        try:
-            os.unlink('medialib.db')
-        except OSError: pass
+        self.settings.setValue('update_db', True)
 
-        try:
-            os.unlink('medialib.db-journal')
-        except OSError: pass
+        self._show_dialog_message('Program Update',
+                'Update completed and will now restart.', 'Output:\n%s' % output,
+                QMessageBox.Information)
+
+        self._restart()
+
+    def _check_db_update(self):
+        if not self.settings.contains('update_db'):
+            print('No DB update required')
+            return
+
+        print('Wiping database ...')
+
+        if os.path.isfile('medialib.db'):
+            try:
+                os.unlink('medialib.db')
+            except OSError:
+                print('Unable to delete DB')
+                sys.exit(1)
+
+        if os.path.isfile('medialib.db-journal'):
+            try:
+                os.unlink('medialib.db-journal')
+            except OSError:
+                print('Unable to delete DB journal')
+                sys.exit(1)
 
         print('Loading database ...')
         engine = create_engine('sqlite:///medialib.db', echo=False)
@@ -137,11 +159,9 @@ class MediaLibrary(QMainWindow):
 
         session.flush()
         session.commit()
-
-        self._show_dialog_message('Program Update',
-                'Update completed and will now restart.', 'Output:\n%s' % output,
-                QMessageBox.Information)
-        self._restart()
+        session.close()
+        self.settings.remove('update_db')
+        print('DB is good to go')
 
     def _show_dialog_message(self, title, message, details, type=QMessageBox.Critical):
         msgBox = QMessageBox()

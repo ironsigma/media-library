@@ -1,5 +1,7 @@
+# Unit tests
+# use: 'py.test' to run
 import pytest
-from ..model import Media, Rating, Subrating, Tag
+from ..model import Media, Rating, Subrating, Tag, File
 
 def pytest_funcarg__disney_tag(request):
     return Tag(id=200, name='Disney', desc='Disney studios')
@@ -14,13 +16,13 @@ def pytest_funcarg__empty_media(request):
     return Media()
 
 def pytest_funcarg__t3_movie(request):
-    return Media(id=84023, title='T3', type='Movie', file='t3.avi', cover='t3.jpg',
+    return Media(id=84023, title='T3', type='Movie', files=[File(filename='t3.avi')], cover='t3.jpg',
             rating=Rating(name='R', desc='R Rating'), release=2003, desc='Terminator 3')
 
 class TestMedia:
 
     def test_init(self, empty_media, t3_movie, disney_tag, r_rating, d_subrating):
-        media = Media(id=3000, title='Vanilla Sky', type='Movie', file='vsky.avi',
+        media = Media(id=3000, title='Vanilla Sky', type='Movie', files=[File(filename='vsky.avi')],
                 cover='vsky.jpg', release=1995, desc='Trippy', tags=[disney_tag],
                 rating=r_rating, subratings=[d_subrating],
                 parent=empty_media, children=[t3_movie])
@@ -28,7 +30,7 @@ class TestMedia:
         assert media.id == 3000
         assert media.title == 'Vanilla Sky'
         assert media.type == 'Movie'
-        assert media.file == 'vsky.avi'
+        assert media.files[0].filename == 'vsky.avi'
         assert media.cover == 'vsky.jpg'
         assert media.release == 1995
         assert media.desc == 'Trippy'

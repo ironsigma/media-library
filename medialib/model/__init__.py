@@ -16,6 +16,7 @@ _media_subrating = Table('media_subrating', TableBase.metadata,
 )
 
 from .media import Media
+from .media import File
 from .media import Rating
 from .media import Subrating
 from .tag import Tag

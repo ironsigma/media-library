@@ -32,6 +32,21 @@ class Subrating(TableBase):
     def __repr__(self):
         return "Subrating(id=%s, name=%s, desc=%s)" % (repr(self.id), repr(self.name), repr(self.desc))
 
+class File(TableBase):
+    __tablename__ = 'file'
+
+    id = Column(Integer, primary_key=True)
+    media_id = Column(Integer, ForeignKey('media.id'))
+    filename = Column(String)
+
+    def __init__(self, id=None, media_id=None, filename=None):
+        self.id = id
+        self.media_id = media_id
+        self.filename = filename
+
+    def __repr__(self):
+        return "File(id=%s, media_id=%s, filename=%s)" % (repr(self.id), repr(self.media_id), repr(self.filename))
+
 class Media(TableBase):
     __tablename__ = 'media'
 
@@ -40,7 +55,6 @@ class Media(TableBase):
     id = Column(Integer, primary_key=True)
     title = Column(String)
     type = Column(String)
-    file = Column(String)
     cover = Column(String)
     release = Column(Integer)
     desc = Column(String)
@@ -53,15 +67,16 @@ class Media(TableBase):
     parent = relationship('Media', remote_side=[id])
     children = relationship('Media')
     tags = relationship('Tag', secondary=_media_tag, backref='media')
+    files = relationship('File')
 
-    def __init__(self, id=None, title=None, type=None, file=None,
+    def __init__(self, id=None, title=None, type=None, files=[],
                  cover=None, release=None, desc=None, rating=None,
                  subratings=[], tags=[], parent=None, children=[]):
 
         self.id = id
         self.title = title
         self.type = type
-        self.file = file
+        self.files = files
         self.cover = cover
         self.release = release
         self.desc = desc
@@ -81,13 +96,13 @@ class Media(TableBase):
         return value
 
     def __repr__(self):
-        return "Media(id=%s, title=%s, type=%s, file=%s, cover=%s, " \
+        return "Media(id=%s, title=%s, type=%s, files=%s, cover=%s, " \
                "release=%s, desc=%s, rating=%s, subratings=%s, " \
                "tags=%s, parent=%s, children=%s)" % (
                 repr(self.id),
                 repr(self.title),
                 repr(self.type),
-                repr(self.file),
+                repr(self.files),
                 repr(self.cover),
                 repr(self.release),
                 repr(self.desc),

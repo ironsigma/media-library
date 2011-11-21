@@ -88,7 +88,7 @@
     "title": "101 Dalmatians",
     "type": "Movie",
     "cover": "101_dalmatians.jpg",
-    "file": "101 Dalmatians (1961).avi",
+    "files": [ "101 Dalmatians (1961).avi" ],
     "release": "1961",
     "rating": "G",
     "tags": ["Disney"]
@@ -97,7 +97,7 @@
     "title": "101 Dalmatians II Patch's London Adventure",
     "type": "Movie",
     "cover": "101_dalmatians_ii.jpg",
-    "file": "101 Dalmatians II Patch's London Adventure (2003).avi",
+    "files": [ "101 Dalmatians II Patch's London Adventure (2003).avi" ],
     "rating": "G",
     "release": "2003"
 },{
@@ -105,21 +105,21 @@
     "title": "17 Again",
     "type": "Movie",
     "cover": "17_again.jpg",
-    "file": "17 Again (2009).avi",
+    "files": [ "17 Again (2009).avi" ],
     "release": "2009"
 },{
     "__media__": true,
     "title": "20,000 Leagues Under the Sea",
     "type": "Movie",
     "cover": "20000_leagues.jpg",
-    "file": "20,000 Leagues Under the Sea (1954).avi",
+    "files": [ "20,000 Leagues Under the Sea (1954).avi" ],
     "release": "1954"
 },{
     "__media__": true,
     "title": "A Bug's Life",
     "type": "Movie",
     "cover": "a_bugs_life.jpg",
-    "file": "A Bug's Life (1998).avi",
+    "files": [ "A Bug's Life (1998).avi" ],
     "rating": "G",
     "release": "1998"
 },{
@@ -127,7 +127,7 @@
     "title": "A Disney Christmas Gift",
     "type": "Movie",
     "cover": "a_disney_christmas_gift.jpg",
-    "file": "A Disney Christmas Gift (1982).avi",
+    "files": [ "A Disney Christmas Gift (1982).avi" ],
     "rating": "G",
     "release": "1982"
 },{
@@ -135,7 +135,7 @@
     "title": "A Goofy Movie",
     "type": "Movie",
     "cover": "a_goofy_movie.jpg",
-    "file": "A Goofy Movie (1995).avi",
+    "files": [ "A Goofy Movie (1995).avi" ],
     "rating": "G",
     "release": "1995"
 },{
@@ -143,7 +143,7 @@
     "title": "Aladdin",
     "type": "Movie",
     "cover": "aladdin.jpg",
-    "file": "Aladdin (1992).avi",
+    "files": [ "Aladdin (1992).avi" ],
     "rating": "G",
     "release": "1992"
 },{
@@ -151,7 +151,7 @@
     "title": "Aladdin and the King of Thieves",
     "type": "Movie",
     "cover": "aladdin_king_of_thieves.jpg",
-    "file": "Aladdin and the King of Thieves (1996).avi",
+    "files": [ "Aladdin and the King of Thieves (1996).avi" ],
     "rating": "G",
     "release": "1996"
 },{
@@ -159,7 +159,7 @@
     "title": "Aladdin - The Return of Jafar",
     "type": "Movie",
     "cover": "aladdin_return_jafar.jpg",
-    "file": "Aladdin -The Return of Jafar (1994).avi",
+    "files": [ "Aladdin -The Return of Jafar (1994).avi" ],
     "rating": "G",
     "release": "1994"
 },{
@@ -167,7 +167,7 @@
     "title": "Alice in Wonderland",
     "type": "Movie",
     "cover": "alice.jpg",
-    "file": "Alice in Wonderland (1951).avi",
+    "files": [ "Alice in Wonderland (1951).avi" ],
     "rating": "G",
     "release": "1951"
 },{
@@ -175,7 +175,7 @@
     "title": "Atlantis Milo's Return",
     "type": "Movie",
     "cover": "atlantis_milos_return.jpg",
-    "file": "Atlantis Milo's Return (2003).avi",
+    "files": [ "Atlantis Milo's Return (2003).avi" ],
     "rating": "G",
     "release": "2003"
 },{
@@ -183,7 +183,7 @@
     "title": "Atlantis The Lost Empire",
     "type": "Movie",
     "cover": "atlantis_lost_empire.jpg",
-    "file": "Atlantis The Lost Empire (2001).avi",
+    "files": [ "Atlantis The Lost Empire (2001).avi" ],
     "rating": "G",
     "release": "2001"
 },{
@@ -191,7 +191,7 @@
     "title": "Bambi",
     "type": "Movie",
     "cover": "bambi.jpg",
-    "file": "Bambi (1942).avi",
+    "files": [ "Bambi (1942).avi" ],
     "rating": "G",
     "release": "1942"
 },{
@@ -199,7 +199,7 @@
     "title": "Beauty and the Beast",
     "type": "Movie",
     "cover": "beauty_beast.jpg",
-    "file": "Beauty and the Beast (1991).avi",
+    "files": [ "Beauty and the Beast (1991).avi" ],
     "rating": "G",
     "release": "1991"
 },{
@@ -207,7 +207,7 @@
     "title": "Beauty and the Beast - The Enchanted Christmas",
     "type": "Movie",
     "cover": "beauty_beast_christmas.jpg",
-    "file": "Beauty and the Beast - The Enchanted Christmas (1997).avi",
+    "files": [ "Beauty and the Beast - The Enchanted Christmas (1997).avi" ],
     "rating": "G",
     "release": "1997"
 },{
@@ -215,14 +215,14 @@
     "title": "Bedknobs and Broomsticks",
     "type": "Movie",
     "cover": "bedknobs_broomsticks.jpg",
-    "file": "Bedknobs and Broomsticks (1971).avi",
+    "files": [ "Bedknobs and Broomsticks (1971).avi" ],
     "release": "1971"
 },{
     "__media__": true,
     "title": "Belle's Magical World",
     "type": "Movie",
     "cover": "belles_magical_world.jpg",
-    "file": "Belle's Magical World (1998).avi",
+    "files": [ "Belle's Magical World (1998).avi" ],
     "rating": "G",
     "release": "1998"
 },{
@@ -230,21 +230,21 @@
     "title": "Benji",
     "type": "Movie",
     "cover": "benji.jpg",
-    "file": "Benji (1974).avi",
+    "files": [ "Benji (1974).avi" ],
     "release": "1974"
 },{
     "__media__": true,
     "title": "Benji's Very Own Christmas Story",
     "type": "Movie",
     "cover": "benji_christmas.jpg",
-    "file": "Benji's Very Own Christmas Story (1978).avi",
+    "files": [ "Benji's Very Own Christmas Story (1978).avi" ],
     "release": "1978"
 },{
     "__media__": true,
     "title": "Benji the Hunted",
     "type": "Movie",
     "cover": "benji_hunted.jpg",
-    "file": "Benji the Hunted (1987).avi",
+    "files": [ "Benji the Hunted (1987).avi" ],
     "release": "1987"
 },{
     "__media__": true,
@@ -252,33 +252,28 @@
     "type": "Movie",
     "cover": "beverly_hills_chihuahua.jpg",
     "rating": "G",
-    "file": "Beverly Hills Chihuahua.avi"
-},{
-    "__media__": true,
-    "title": "Blue's Clues",
-    "type": "Folder",
-    "file": "Blue's Clues"
+    "files": [ "Beverly Hills Chihuahua.avi" ]
 },{
     "__media__": true,
     "title": "Bob The Builder - Adventure",
     "rating": "G",
     "type": "Movie",
     "cover": "bob_the_builder.jpg",
-    "file": "Bob The Builder - Adventure.m4v"
+    "files": [ "Bob The Builder - Adventure.m4v" ]
 },{
     "__media__": true,
     "title": "Bob The Builder - Built to be wild",
     "rating": "G",
     "type": "Movie",
     "cover": "bob_the_builder.jpg",
-    "file": "Bob The Builder - Built to be wild.mpg"
+    "files": [ "Bob The Builder - Built to be wild.mpg" ]
 },{
     "__media__": true,
     "title": "Bolt",
     "rating": "G",
     "type": "Movie",
     "cover": "bolt.jpg",
-    "file": "Bolt (2008).avi",
+    "files": [ "Bolt (2008).avi" ],
     "release": "2008"
 },{
     "__media__": true,
@@ -286,7 +281,7 @@
     "rating": "G",
     "type": "Movie",
     "cover": "brother_bear.jpg",
-    "file": "Brother Bear (2003).avi",
+    "files": [ "Brother Bear (2003).avi" ],
     "release": "2003"
 },{
     "__media__": true,
@@ -294,7 +289,7 @@
     "rating": "G",
     "type": "Movie",
     "cover": "buzz_star_command.jpg",
-    "file": "Buzz Lightyear of Star Command The Adventure Begins (2000).avi",
+    "files": [ "Buzz Lightyear of Star Command The Adventure Begins (2000).avi" ],
     "release": "2000"
 },{
     "__media__": true,
@@ -302,14 +297,14 @@
     "rating": "G",
     "type": "Movie",
     "cover": "caillou.jpg",
-    "file": "Caillou.m4v"
+    "files": [ "Caillou.m4v" ]
 },{
     "__media__": true,
     "title": "Cars",
     "rating": "G",
     "type": "Movie",
     "cover": "cars.jpg",
-    "file": "Cars (2006).avi",
+    "files": [ "Cars (2006).avi" ],
     "release": "2006"
 },{
     "__media__": true,
@@ -317,7 +312,7 @@
     "rating": "G",
     "type": "Movie",
     "cover": "chicken_little.jpg",
-    "file": "Chicken Little (2005).avi",
+    "files": [ "Chicken Little (2005).avi" ],
     "release": "2005"
 },{
     "__media__": true,
@@ -325,224 +320,211 @@
     "rating": "G",
     "type": "Movie",
     "cover": "christmas_is_here_again.jpg",
-    "file": "Christmas Is Here Again (2007).avi",
+    "files": [ "Christmas Is Here Again (2007).avi" ],
     "release": "2007"
 },{
     "__media__": true,
     "title": "Cinderella",
     "rating": "G",
     "type": "Movie",
-    "file": "Cinderella (1950).avi",
+    "files": [ "Cinderella (1950).avi" ],
     "cover": "cinderella.jpg",
     "release": "1950"
-},{
-    "__media__": true,
-    "id": "dora",
-    "title": "Dora the Explorer",
-    "rating": "G",
-    "type": "Folder",
-    "file": "Dora the Explorer"
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "The Legend of the Big Red Chicken",
     "rating": "G",
-    "file": "Dora the Explorer - 1x01 - The Legend of the Big Red Chicken [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x01 - The Legend of the Big Red Chicken [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Lost and Found",
     "rating": "G",
-    "file": "Dora the Explorer - 1x02 - Lost and Found [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x02 - Lost and Found [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Hic-Boom-Ohh",
     "rating": "G",
-    "file": "Dora the Explorer - 1x03 - Hic-Boom-Ohh [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x03 - Hic-Boom-Ohh [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Beaches",
     "rating": "G",
-    "file": "Dora the Explorer - 1x04 - Beaches [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x04 - Beaches [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "We All Scream for Ice Cream",
     "rating": "G",
-    "file": "Dora the Explorer - 1x05 - We All Scream for Ice Cream [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x05 - We All Scream for Ice Cream [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Choo Choo",
     "rating": "G",
-    "file": "Dora the Explorer - 1x06 - Choo Choo [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x06 - Choo Choo [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Treasure Island",
     "rating": "G",
-    "file": "Dora the Explorer - 1x07 - Treasure Island [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x07 - Treasure Island [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Three Little Piggies",
     "rating": "G",
-    "file": "Dora the Explorer - 1x08 - Three Little Piggies [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x08 - Three Little Piggies [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Big River",
     "rating": "G",
-    "file": "Dora the Explorer - 1x09 - Big River.avi"
+    "files": [ "Dora the Explorer - 1x09 - Big River.avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Berry Hunt",
     "rating": "G",
-    "file": "Dora the Explorer - 1x10 - Berry Hunt [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x10 - Berry Hunt [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Wizzle Wishes",
     "rating": "G",
-    "file": "Dora the Explorer - 1x11 - Wizzle Wishes [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x11 - Wizzle Wishes [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Grandma's House",
     "rating": "G",
-    "file": "Dora the Explorer - 1x12 - Grandma's House [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x12 - Grandma's House [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Surprise",
     "rating": "G",
-    "file": "Dora the Explorer - 1x13 - Surprise [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x13 - Surprise [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Sticky Tape",
     "rating": "G",
-    "file": "Dora the Explorer - 1x14 - Sticky Tape [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x14 - Sticky Tape [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Bouncing Ball",
     "rating": "G",
-    "file": "Dora the Explorer - 1x15 - Bouncing Ball [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x15 - Bouncing Ball [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Backpack",
     "rating": "G",
-    "file": "Dora the Explorer - 1x16 - Backpack.avi"
+    "files": [ "Dora the Explorer - 1x16 - Backpack.avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Fish Out Of Water",
     "rating": "G",
-    "file": "Dora the Explorer - 1x17 - Fish Out Of Water [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x17 - Fish Out Of Water [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Bugga Bugga",
     "rating": "G",
-    "file": "Dora the Explorer - 1x18 - Bugga Bugga [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x18 - Bugga Bugga [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Little Star",
     "rating": "G",
-    "file": "Dora the Explorer - 1x19 - Little Star [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x19 - Little Star [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Dora Saves the Prince",
     "rating": "G",
-    "file": "Dora the Explorer - 1x20 - Dora Saves the Prince.avi"
+    "files": [ "Dora the Explorer - 1x20 - Dora Saves the Prince.avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "El Coqui",
     "rating": "G",
-    "file": "Dora the Explorer - 1x21 - El Coqui.avi"
+    "files": [ "Dora the Explorer - 1x21 - El Coqui.avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Chocolate Tree",
     "rating": "G",
-    "file": "Dora the Explorer - 1x22 - Chocolate Tree [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x22 - Chocolate Tree [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Te Amo",
     "rating": "G",
-    "file": "Dora the Explorer - 1x23 - Te Amo [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x23 - Te Amo [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Pablo's Flute",
     "rating": "G",
-    "file": "Dora the Explorer - 1x24 - Pablo's Flute [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x24 - Pablo's Flute [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Treehouse",
     "rating": "G",
-    "file": "Dora the Explorer - 1x25 - Treehouse [Mischief].avi"
+    "files": [ "Dora the Explorer - 1x25 - Treehouse [Mischief].avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "Call Me Mr Riddles",
     "rating": "G",
-    "file": "Dora the Explorer - 1x26 - Call Me Mr Riddles.avi"
+    "files": [ "Dora the Explorer - 1x26 - Call Me Mr Riddles.avi" ]
 },{
     "__media__": true,
     "parent": "dora",
     "type": "Show",
     "title": "The Lost City",
     "rating": "G",
-    "file": "Dora the Explorer - 1x27 - The Lost City [Mischief].avi"
-},{
-    "__media__": true,
-    "title": "Ducktales",
-    "rating": "G",
-    "type": "Folder",
-    "file": "Ducktales"
+    "files": [ "Dora the Explorer - 1x27 - The Lost City [Mischief].avi" ]
 },{
     "__media__": true,
     "title": "Ducktales The Movie - Treasure of the Lost Lamp",
     "rating": "G",
     "type": "Movie",
-    "file": "Ducktales The Movie - Treasure of the Lost Lamp (1990).avi",
+    "files": [ "Ducktales The Movie - Treasure of the Lost Lamp (1990).avi" ],
     "cover": "duck_tales.jpg",
     "release": "1990"
 },{
@@ -550,28 +532,28 @@
     "title": "Dumbo",
     "rating": "G",
     "type": "Movie",
-    "file": "Dumbo (1941).avi",
+    "files": [ "Dumbo (1941).avi" ],
     "cover": "dumbo.jpg",
     "release": "1941"
 },{
     "__media__": true,
     "title": "Elf",
     "type": "Movie",
-    "file": "Elf (2003).avi",
+    "files": [ "Elf (2003).avi" ],
     "cover": "elf.jpg",
     "release": "2003"
 },{
     "__media__": true,
     "title": "Enchanted",
     "type": "Movie",
-    "file": "Enchanted.avi",
+    "files": [ "Enchanted.avi" ],
     "cover": "enchanted.jpg"
 },{
     "__media__": true,
     "title": "Everyone's Hero",
     "rating": "G",
     "type": "Movie",
-    "file": "Everyone's Hero (2006).avi",
+    "files": [ "Everyone's Hero (2006).avi" ],
     "cover": "everyones_hero.jpg",
     "release": "2006"
 },{
@@ -579,7 +561,7 @@
     "title": "Fantasia",
     "rating": "G",
     "type": "Movie",
-    "file": "Fantasia (1940).avi",
+    "files": [ "Fantasia (1940).avi" ],
     "cover": "fantasia.jpg",
     "release": "1940"
 },{
@@ -587,7 +569,7 @@
     "title": "Fantasia 2000",
     "rating": "G",
     "type": "Movie",
-    "file": "Fantasia 2000 (1999).avi",
+    "files": [ "Fantasia 2000 (1999).avi" ],
     "cover": "fantasia_2000.jpg",
     "release": "1999"
 },{
@@ -595,14 +577,14 @@
     "title": "Finding Nemo",
     "rating": "G",
     "type": "Movie",
-    "file": "Finding Nemo (2003).avi",
+    "files": [ "Finding Nemo (2003).avi" ],
     "cover": "finding_nemo.jpg",
     "release": "2003"
 },{
     "__media__": true,
     "title": "Fred Claus",
     "type": "Movie",
-    "file": "Fred Claus (2007).avi",
+    "files": [ "Fred Claus (2007).avi" ],
     "cover": "fred_claus.jpg",
     "release": "2007"
 },{
@@ -610,14 +592,14 @@
     "title": "Fun and Fancy Free",
     "rating": "G",
     "type": "Movie",
-    "file": "Fun and Fancy Free (1947).avi",
+    "files": [ "Fun and Fancy Free (1947).avi" ],
     "cover": "fun_and_fancy_free.jpg",
     "release": "1947"
 },{
     "__media__": true,
     "title": "George and the Dragon",
     "type": "Movie",
-    "file": "George and the Dragon (2004).avi",
+    "files": [ "George and the Dragon (2004).avi" ],
     "cover": "george_and_the_dragon.jpg",
     "release": "2004"
 },{
@@ -625,48 +607,48 @@
     "title": "Go Dieo Go The Great Jaguar Rescue",
     "rating": "G",
     "type": "Movie",
-    "file": "Go Dieo Go The Great Jaguar Rescue.avi",
+    "files": [ "Go Dieo Go The Great Jaguar Rescue.avi" ],
     "cover": "diego-the_great_jaguar_rescue.jpg"
 },{
     "__media__": true,
     "title": "Happy Feet",
     "rating": "G",
     "type": "Movie",
-    "file": "Happy Feet.avi",
+    "files": [ "Happy Feet.avi" ],
     "cover": "happy_feet.jpg"
 },{
     "__media__": true,
     "title": "Harry Potter and the Chamber of Secrets",
     "type": "Movie",
-    "file": "Harry Potter and the Chamber of Secrets (2002).avi",
+    "files": [ "Harry Potter and the Chamber of Secrets (2002).avi" ],
     "cover": "hp2-chamber_of_secrets.jpg",
     "release": "2002"
 },{
     "__media__": true,
     "title": "Harry Potter and the Goblet of Fire",
     "type": "Movie",
-    "file": "Harry Potter and the Goblet of Fire (2005).avi",
+    "files": [ "Harry Potter and the Goblet of Fire (2005).avi" ],
     "cover": "hp4-goblet_of_fire.jpg",
     "release": "2005"
 },{
     "__media__": true,
     "title": "Harry Potter and the Order of the Phoenix",
     "type": "Movie",
-    "file": "Harry Potter and the Order of the Phoenix (2007).avi",
+    "files": [ "Harry Potter and the Order of the Phoenix (2007).avi" ],
     "cover": "hp5-order_of_the_phoenix.jpg",
     "release": "2007"
 },{
     "__media__": true,
     "title": "Harry Potter and the Prisoner of Azkaban",
     "type": "Movie",
-    "file": "Harry Potter and the Prisoner of Azkaban (2004).avi",
+    "files": [ "Harry Potter and the Prisoner of Azkaban (2004).avi" ],
     "cover": "hp3-prisoner_of_azkaban.jpg",
     "release": "2004"
 },{
     "__media__": true,
     "title": "Harry Potter and the Sorcerer's Stone",
     "type": "Movie",
-    "file": "Harry Potter and the Sorcerer's Stone (2001).avi",
+    "files": [ "Harry Potter and the Sorcerer's Stone (2001).avi" ],
     "cover": "hp1-sorcerrers_stone.jpg",
     "release": "2001"
 },{
@@ -674,13 +656,13 @@
     "title": "Hello Kitty Tells Fairy Tales",
     "rating": "G",
     "type": "Movie",
-    "file": "HELLO_KITTY_TELLS_FAIRY_TALES.m4v",
+    "files": [ "HELLO_KITTY_TELLS_FAIRY_TALES.m4v" ],
     "cover": "hello_kitty_tells_fairy_tales.jpg"
 },{
     "__media__": true,
     "title": "Herbie Rides Again",
     "type": "Movie",
-    "file": "Herbie Rides Again (1974).avi",
+    "files": [ "Herbie Rides Again (1974).avi" ],
     "cover": "herbie_ries_again.jpg",
     "release": "1974"
 },{
@@ -688,28 +670,28 @@
     "title": "Hercules",
     "rating": "G",
     "type": "Movie",
-    "file": "Hercules (1997).avi",
+    "files": [ "Hercules (1997).avi" ],
     "cover": "hercules.jpg",
     "release": "1997"
 },{
     "__media__": true,
     "title": "High School Musical",
     "type": "Movie",
-    "file": "High School Musical (2006).avi",
+    "files": [ "High School Musical (2006).avi" ],
     "cover": "hs_musical.jpg",
     "release": "2006"
 },{
     "__media__": true,
     "title": "High School Musical 2",
     "type": "Movie",
-    "file": "High School Musical 2 (2007).avi",
+    "files": [ "High School Musical 2 (2007).avi" ],
     "cover": "hs_musical_2.jpg",
     "release": "2007"
 },{
     "__media__": true,
     "title": "High School Musical 3 Senior Year",
     "type": "Movie",
-    "file": "High School Musical 3 Senior Year (2008).avi",
+    "files": [ "High School Musical 3 Senior Year (2008).avi" ],
     "cover": "hs_musical_3.jpg",
     "release": "2008"
 },{
@@ -717,7 +699,7 @@
     "title": "Home on the Range",
     "rating": "G",
     "type": "Movie",
-    "file": "Home on the Range (2004).avi",
+    "files": [ "Home on the Range (2004).avi" ],
     "cover": "home_on_the_range.jpg",
     "release": "2004"
 },{
@@ -725,34 +707,34 @@
     "title": "Horton",
     "rating": "G",
     "type": "Movie",
-    "file": "Horton.avi",
+    "files": [ "Horton.avi" ],
     "cover": "horton.jpg"
 },{
     "__media__": true,
     "title": "Inkheart",
     "type": "Movie",
     "cover": "inkheart.jpg",
-    "file": "Inkheart (2008).avi",
+    "files": [ "Inkheart (2008).avi" ],
     "release": "2008"
 },{
     "__media__": true,
     "title": "Inspector Gadget 2",
     "type": "Movie",
-    "file": "Inspector Gadget 2 (2003).avi",
+    "files": [ "Inspector Gadget 2 (2003).avi" ],
     "cover": "inspector_gadget_2.jpg",
     "release": "2003"
 },{
     "__media__": true,
     "title": "James and the Giant Peach",
     "type": "Movie",
-    "file": "James and the Giant Peach (1996).avi",
+    "files": [ "James and the Giant Peach (1996).avi" ],
     "cover": "james_and_the_giant_peach.jpg",
     "release": "1996"
 },{
     "__media__": true,
     "title": "Jonathan Livingston Seagull",
     "type": "Movie",
-    "file": "Jonathan Livingston Seagull (1973).avi",
+    "files": [ "Jonathan Livingston Seagull (1973).avi" ],
     "cover": "jonathan_livingston_seagull.jpg",
     "release": "1973"
 },{
@@ -760,13 +742,13 @@
     "title": "Kung Fu Panda",
     "rating": "G",
     "type": "Movie",
-    "file": "Kung Fu Panda.avi",
+    "files": [ "Kung Fu Panda.avi" ],
     "cover": "kung_fu_panda.jpg"
 },{
     "__media__": true,
     "title": "Labyrinth",
     "type": "Movie",
-    "file": "Labyrinth.1986.Eng.avi",
+    "files": [ "Labyrinth.1986.Eng.avi" ],
     "cover": "labyrinth.jpg",
     "release": "1986"
 },{
@@ -774,7 +756,7 @@
     "title": "Lady and the Tramp",
     "rating": "G",
     "type": "Movie",
-    "file": "Lady and the Tramp (1955).avi",
+    "files": [ "Lady and the Tramp (1955).avi" ],
     "cover": "lady_and_the_tramp.jpg",
     "release": "1955"
 },{
@@ -782,27 +764,22 @@
     "title": "Lilo & Stitch",
     "rating": "G",
     "type": "Movie",
-    "file": "Lilo & Stitch (2002).avi",
+    "files": [ "Lilo & Stitch (2002).avi" ],
     "cover": "lilo_and_stich.jpg",
     "release": "2002"
-},{
-    "__media__": true,
-    "title": "Looney Toons",
-    "type": "Folder",
-    "file": "Looney Toons"
 },{
     "__media__": true,
     "title": "Madagascar Escape 2 Africa",
     "rating": "G",
     "type": "Movie",
-    "file": "Madagascar Escape 2 Africa (2008).avi",
+    "files": [ "Madagascar Escape 2 Africa (2008).avi" ],
     "cover": "madagascar_2.jpg",
     "release": "2008"
 },{
     "__media__": true,
     "title": "Make Mine Music",
     "type": "Movie",
-    "file": "Make Mine Music (1946).avi",
+    "files": [ "Make Mine Music (1946).avi" ],
     "cover": "make_mine_music.jpg",
     "release": "1946"
 },{
@@ -810,7 +787,7 @@
     "title": "Mary Poppins",
     "rating": "G",
     "type": "Movie",
-    "file": "Mary Poppins (1964).avi",
+    "files": [ "Mary Poppins (1964).avi" ],
     "cover": "marry_poppins.jpg",
     "release": "1964"
 },{
@@ -818,20 +795,20 @@
     "title": "Max and Ruby",
     "rating": "G",
     "type": "Movie",
-    "file": "Max and Ruby.m4v",
+    "files": [ "Max and Ruby.m4v" ],
     "cover": "max_and_ruby.jpg"
 },{
     "__media__": true,
     "title": "Meet Dave",
     "type": "Movie",
-    "file": "Meet Dave (2008).avi",
+    "files": [ "Meet Dave (2008).avi" ],
     "cover": "meet_dave.jpg",
     "release": "2008"
 },{
     "__media__": true,
     "title": "Melody Time",
     "type": "Movie",
-    "file": "Melody Time (1948).avi",
+    "files": [ "Melody Time (1948).avi" ],
     "cover": "melody_time.jpg",
     "release": "1948"
 },{
@@ -839,7 +816,7 @@
     "title": "Mickey's Christmas Carol",
     "rating": "G",
     "type": "Movie",
-    "file": "Mickey's Christmas Carol (1983).avi",
+    "files": [ "Mickey's Christmas Carol (1983).avi" ],
     "cover": "mickeys_christmas_carol.jpg",
     "release": "1983"
 },{
@@ -847,28 +824,28 @@
     "title": "Mickey's Once Upon A Christmas",
     "rating": "G",
     "type": "Movie",
-    "file": "Mickey's Once Upon A Christmas (1999).avi",
+    "files": [ "Mickey's Once Upon A Christmas (1999).avi" ],
     "cover": "mikeys_once_upon_a_christmas.jpg",
     "release": "1999"
 },{
     "__media__": true,
     "title": "Minutemen",
     "type": "Movie",
-    "file": "Minutemen (2008).avi",
+    "files": [ "Minutemen (2008).avi" ],
     "cover": "minute_men.jpg",
     "release": "2008"
 },{
     "__media__": true,
     "title": "Monster House",
     "type": "Movie",
-    "file": "Monster_House.m4v",
+    "files": [ "Monster_House.m4v" ],
     "cover": "monster_house.jpg"
 },{
     "__media__": true,
     "title": "Monsters, Inc.",
     "rating": "G",
     "type": "Movie",
-    "file": "Monsters, Inc. (2001).avi",
+    "files": [ "Monsters, Inc. (2001).avi" ],
     "cover": "monsters inc.jpg",
     "release": "2001"
 },{
@@ -876,14 +853,14 @@
     "title": "Mulan",
     "rating": "G",
     "type": "Movie",
-    "file": "Mulan (1998).avi",
+    "files": [ "Mulan (1998).avi" ],
     "cover": "mulan.jpg",
     "release": "1998"
 },{
     "__media__": true,
     "title": "My Girl 2",
     "type": "Movie",
-    "file": "My Girl 2 (1994).avi",
+    "files": [ "My Girl 2 (1994).avi" ],
     "cover": "my_girl_2.jpg",
     "release": "1994"
 },{
@@ -891,34 +868,34 @@
     "title": "My Neighbor Totoro",
     "rating": "G",
     "type": "Movie",
-    "file": "My Neighbor Totoro.avi",
+    "files": [ "My Neighbor Totoro.avi" ],
     "cover": "my_neighbour_totoro.jpg"
 },{
     "__media__": true,
     "title": "Nancy Drew",
     "type": "Movie",
-    "file": "Nancy Drew (2007).avi",
+    "files": [ "Nancy Drew (2007).avi" ],
     "cover": "nancy_drew.jpg",
     "release": "2007"
 },{
     "__media__": true,
     "title": "Night At The Museum",
     "type": "Movie",
-    "file": "Night At The Museum (2006).avi",
+    "files": [ "Night At The Museum (2006).avi" ],
     "cover": "night_at_the_museum.jpg",
     "release": "2006"
 },{
     "__media__": true,
     "title": "Nim's Island",
     "type": "Movie",
-    "file": "Nim's Island (2008).avi",
+    "files": [ "Nim's Island (2008).avi" ],
     "cover": "nims_island.jpg",
     "release": "2008"
 },{
     "__media__": true,
     "title": "Old Yeller",
     "type": "Movie",
-    "file": "Old Yeller (1957).avi",
+    "files": [ "Old Yeller (1957).avi" ],
     "cover": "old_yeller.jpg",
     "release": "1957"
 },{
@@ -926,7 +903,7 @@
     "title": "Oliver & Company",
     "rating": "G",
     "type": "Movie",
-    "file": "Oliver & Company (1988).avi",
+    "files": [ "Oliver & Company (1988).avi" ],
     "cover": "oliver_company.jpg",
     "release": "1988"
 },{
@@ -934,14 +911,14 @@
     "title": "Peter Pan",
     "rating": "G",
     "type": "Movie",
-    "file": "Peter Pan (1953).avi",
+    "files": [ "Peter Pan (1953).avi" ],
     "cover": "peter_pan.jpg",
     "release": "1953"
 },{
     "__media__": true,
     "title": "Pete's Dragon",
     "type": "Movie",
-    "file": "Pete's Dragon (1977).avi",
+    "files": [ "Pete's Dragon (1977).avi" ],
     "cover": "petes_dragon.jpg",
     "release": "1977"
 },{
@@ -949,7 +926,7 @@
     "title": "Pinocchio",
     "rating": "G",
     "type": "Movie",
-    "file": "Pinocchio (1940).avi",
+    "files": [ "Pinocchio (1940).avi" ],
     "cover": "pinocchio.jpg",
     "release": "1940"
 },{
@@ -957,7 +934,7 @@
     "title": "Pocahontas",
     "rating": "G",
     "type": "Movie",
-    "file": "Pocahontas (1995).avi",
+    "files": [ "Pocahontas (1995).avi" ],
     "cover": "pocahontas.jpg",
     "release": "1995"
 },{
@@ -965,14 +942,14 @@
     "title": "Pocahontas II - Journey to a New World",
     "rating": "G",
     "type": "Movie",
-    "file": "Pocahontas II - Journey to a New World (1998).avi",
+    "files": [ "Pocahontas II - Journey to a New World (1998).avi" ],
     "cover": "pocahontas_ii.jpg",
     "release": "1998"
 },{
     "__media__": true,
     "title": "Race To Witch Mountain",
     "type": "Movie",
-    "file": "Race To Witch Mountain (2009).avi",
+    "files": [ "Race To Witch Mountain (2009).avi" ],
     "cover": "race_witch_mountain.jpg",
     "release": "2009"
 },{
@@ -980,14 +957,14 @@
     "title": "Ratatouille",
     "rating": "G",
     "type": "Movie",
-    "file": "RATATOUILLE.m4v",
+    "files": [ "RATATOUILLE.m4v" ],
     "cover": "ratatouille.jpg"
 },{
     "__media__": true,
     "title": "Robin Hood",
     "rating": "G",
     "type": "Movie",
-    "file": "Robin Hood (1973).avi",
+    "files": [ "Robin Hood (1973).avi" ],
     "cover": "robin_hood.jpg",
     "release": "1973"
 },{
@@ -995,56 +972,41 @@
     "title": "Saludos Amigos",
     "rating": "G",
     "type": "Movie",
-    "file": "Saludos Amigos (1942).avi",
+    "files": [ "Saludos Amigos (1942).avi" ],
     "cover": "saludos_amigos.jpg",
     "release": "1942"
 },{
     "__media__": true,
-    "title": "Scooby-Doo",
-    "type": "Folder",
-    "file": "Scooby-Doo"
-},{
-    "__media__": true,
     "title": "Scooby-Doo Legend of The Vampire",
     "type": "Movie",
-    "file": "SCOOBY_DOO_LEGEND_OF_VAMPIRE.m4v"
-},{
-    "__media__": true,
-    "title": "Scooby Do's The 13 Ghosts",
-    "type": "Folder",
-    "file": "Scooby Do's The 13 Ghosts"
-},{
-    "__media__": true,
-    "title": "Scooby Do's What's New",
-    "type": "Folder",
-    "file": "Scooby Do's What's New"
+    "files": [ "SCOOBY_DOO_LEGEND_OF_VAMPIRE.m4v" ]
 },{
     "__media__": true,
     "title": "Shrek 2",
     "rating": "G",
     "type": "Movie",
-    "file": "Shrek 2.avi",
+    "files": [ "Shrek 2.avi" ],
     "cover": "shrek_2.jpg"
 },{
     "__media__": true,
     "title": "Shrek",
     "rating": "G",
     "type": "Movie",
-    "file": "Shrek.avi",
+    "files": [ "Shrek.avi" ],
     "cover": "shrek.jpg"
 },{
     "__media__": true,
     "title": "Shrek The Third",
     "rating": "G",
     "type": "Movie",
-    "file": "Shrek.The.Third.avi",
+    "files": [ "Shrek.The.Third.avi" ],
     "cover": "shrek_3.jpg"
 },{
     "__media__": true,
     "title": "Sleeping Beauty",
     "rating": "G",
     "type": "Movie",
-    "file": "Sleeping Beauty (1959).avi",
+    "files": [ "Sleeping Beauty (1959).avi" ],
     "cover": "sleeping_beauty.jpg",
     "release": "1959"
 },{
@@ -1052,28 +1014,28 @@
     "title": "Snow White and the Seven Dwarves",
     "rating": "G",
     "type": "Movie",
-    "file": "Snow White and the Seven Dwarves (1937).avi",
+    "files": [ "Snow White and the Seven Dwarves (1937).avi" ],
     "cover": "snow_white.jpg",
     "release": "1937"
 },{
     "__media__": true,
     "title": "Song of the South",
     "type": "Movie",
-    "file": "Song of the South (1946).avi",
+    "files": [ "Song of the South (1946).avi" ],
     "cover": "song_of_the_south.jpg",
     "release": "1946"
 },{
     "__media__": true,
     "title": "Stardust",
     "type": "Movie",
-    "file": "Stardust (2007).avi",
+    "files": [ "Stardust (2007).avi" ],
     "cover": "stardust.jpg",
     "release": "2007"
 },{
     "__media__": true,
     "title": "Stick It",
     "type": "Movie",
-    "file": "Stick It (2006).avi",
+    "files": [ "Stick It (2006).avi" ],
     "cover": "stick_it.jpg",
     "release": "2006"
 },{
@@ -1081,13 +1043,13 @@
     "title": "Stich The Movie",
     "rating": "G",
     "type": "Movie",
-    "file": "STITCH_THE_MOVIE.m4v",
+    "files": [ "STITCH_THE_MOVIE.m4v" ],
     "cover": "stich_the_movie.jpg"
 },{
     "__media__": true,
     "title": "Swiss Family Robinson",
     "type": "Movie",
-    "file": "Swiss Family Robinson (1960).avi",
+    "files": [ "Swiss Family Robinson (1960).avi" ],
     "cover": "swiss_family_robinson.jpg",
     "release": "1960"
 },{
@@ -1095,7 +1057,7 @@
     "title": "Tangled",
     "rating": "G",
     "type": "Movie",
-    "file": "TANGLED.m4v",
+    "files": [ "TANGLED.m4v" ],
     "cover": "tangled.jpg",
     "tags": ["Disney", "Princess"]
 },{
@@ -1103,28 +1065,28 @@
     "title": "Tarzan",
     "rating": "G",
     "type": "Movie",
-    "file": "Tarzan (1999).avi",
+    "files": [ "Tarzan (1999).avi" ],
     "cover": "tarzan.jpg",
     "release": "1999"
 },{
     "__media__": true,
     "title": "That Darn Cat",
     "type": "Movie",
-    "file": "That Darn Cat (1965).avi",
+    "files": [ "That Darn Cat (1965).avi" ],
     "cover": "that_darn_cat.jpg",
     "release": "1965"
 },{
     "__media__": true,
     "title": "The Adventures Of Ichabod and Mr Toad",
     "type": "Movie",
-    "file": "The Adventures Of Ichabod and Mr Toad (1949).avi",
+    "files": [ "The Adventures Of Ichabod and Mr Toad (1949).avi" ],
     "cover": "adventures_ichabod.jpg",
     "release": "1949"
 },{
     "__media__": true,
     "title": "The Adventures Of Tom Sawyer",
     "type": "Movie",
-    "file": "The Adventures Of Tom Sawyer (1938).avi",
+    "files": [ "The Adventures Of Tom Sawyer (1938).avi" ],
     "cover": "tom_sawyer.jpg",
     "release": "1938"
 },{
@@ -1132,7 +1094,7 @@
     "title": "The Aristocats",
     "rating": "G",
     "type": "Movie",
-    "file": "The Aristocats (1970).avi",
+    "files": [ "The Aristocats (1970).avi" ],
     "cover": "aristocats.jpg",
     "release": "1970"
 },{
@@ -1140,7 +1102,7 @@
     "title": "The Black Cauldron",
     "rating": "G",
     "type": "Movie",
-    "file": "The Black Cauldron (1985).avi",
+    "files": [ "The Black Cauldron (1985).avi" ],
     "cover": "black_cauldron.jpg",
     "release": "1985"
 },{
@@ -1148,20 +1110,20 @@
     "title": "The Care Bears Movie",
     "rating": "G",
     "type": "Movie",
-    "file": "The Care Bears Movie.m4v",
+    "files": [ "The Care Bears Movie.m4v" ],
     "cover": "care_bear_movie.jpg"
 },{
     "__media__": true,
     "title": "The Care Bears - The Land Without Feelings",
     "rating": "G",
     "type": "Movie",
-    "file": "The Care Bears - The Land Without Feelings.m4v",
+    "files": [ "The Care Bears - The Land Without Feelings.m4v" ],
     "cover": "care_bears_land_without_feelings.jpg"
 },{
     "__media__": true,
     "title": "The Dark Crystal",
     "type": "Movie",
-    "file": "The Dark Crystal (1982).avi",
+    "files": [ "The Dark Crystal (1982).avi" ],
     "cover": "dark_crystal.jpg",
     "release": "1982"
 },{
@@ -1169,7 +1131,7 @@
     "title": "The Emperor's New Groove",
     "rating": "G",
     "type": "Movie",
-    "file": "The Emperor's New Groove (2000).avi",
+    "files": [ "The Emperor's New Groove (2000).avi" ],
     "cover": "emperors_new_groove.jpg",
     "release": "2000"
 },{
@@ -1177,14 +1139,14 @@
     "title": "The Fox and the Hound",
     "rating": "G",
     "type": "Movie",
-    "file": "The Fox and the Hound (1981).avi",
+    "files": [ "The Fox and the Hound (1981).avi" ],
     "cover": "fox_and_the_hound.jpg",
     "release": "1981"
 },{
     "__media__": true,
     "title": "The Golden Compass",
     "type": "Movie",
-    "file": "The Golden Compass (2007).avi",
+    "files": [ "The Golden Compass (2007).avi" ],
     "cover": "golden_compass.jpg",
     "release": "2007"
 },{
@@ -1192,7 +1154,7 @@
     "title": "The Great Mouse Detective",
     "rating": "G",
     "type": "Movie",
-    "file": "The Great Mouse Detective (1986).avi",
+    "files": [ "The Great Mouse Detective (1986).avi" ],
     "cover": "great_mouse_detective.jpg",
     "release": "1986"
 },{
@@ -1200,7 +1162,7 @@
     "title": "The Hunchback of Notre Dame",
     "rating": "G",
     "type": "Movie",
-    "file": "The Hunchback of Notre Dame (1996).avi",
+    "files": [ "The Hunchback of Notre Dame (1996).avi" ],
     "cover": "hunchback_of_notre_dame.jpg",
     "release": "1996"
 },{
@@ -1208,7 +1170,7 @@
     "title": "The Incredibles",
     "rating": "G",
     "type": "Movie",
-    "file": "The Incredibles (2004).avi",
+    "files": [ "The Incredibles (2004).avi" ],
     "cover": "incredibles.jpg",
     "release": "2004"
 },{
@@ -1216,7 +1178,7 @@
     "title": "The Jungle Book",
     "rating": "G",
     "type": "Movie",
-    "file": "The Jungle Book (1967).avi",
+    "files": [ "The Jungle Book (1967).avi" ],
     "cover": "jungle_book.jpg",
     "release": "1967"
 },{
@@ -1224,28 +1186,28 @@
     "title": "The Jungle Book 2",
     "rating": "G",
     "type": "Movie",
-    "file": "The Jungle Book 2 (2003).avi",
+    "files": [ "The Jungle Book 2 (2003).avi" ],
     "cover": "jungle_book_2.jpg",
     "release": "2003"
 },{
     "__media__": true,
     "title": "The Librarian Quest for the Spear",
     "type": "Movie",
-    "file": "The Librarian Quest for the Spear (2004).avi",
+    "files": [ "The Librarian Quest for the Spear (2004).avi" ],
     "cover": "librarian_1_spear.jpg",
     "release": "2004"
 },{
     "__media__": true,
     "title": "The Librarian Return to King Solomon's Mines",
     "type": "Movie",
-    "file": "The Librarian Return to King Solomon's Mines (2006).avi",
+    "files": [ "The Librarian Return to King Solomon's Mines (2006).avi" ],
     "cover": "librarian_2_king.jpg",
     "release": "2006"
 },{
     "__media__": true,
     "title": "The Librarian The Curse of the Judas Chalice",
     "type": "Movie",
-    "file": "The Librarian The Curse of the Judas Chalice (2008).avi",
+    "files": [ "The Librarian The Curse of the Judas Chalice (2008).avi" ],
     "cover": "librarian_3_chalice.jpg",
     "release": "2008"
 },{
@@ -1254,7 +1216,7 @@
     "rating": "G",
     "type": "Movie",
     "cover": "lion_king.jpg",
-    "file": "The Lion King (1994).avi",
+    "files": [ "The Lion King (1994).avi" ],
     "release": "1994"
 },{
     "__media__": true,
@@ -1262,7 +1224,7 @@
     "rating": "G",
     "type": "Movie",
     "cover": "lion_king_2.jpg",
-    "file": "The Lion King 2 - Simba's Pride (1998).avi",
+    "files": [ "The Lion King 2 - Simba's Pride (1998).avi" ],
     "release": "1998"
 },{
     "__media__": true,
@@ -1270,14 +1232,14 @@
     "rating": "G",
     "type": "Movie",
     "cover": "little_mermaid.jpg",
-    "file": "The Little Mermaid (1989).avi",
+    "files": [ "The Little Mermaid (1989).avi" ],
     "release": "1989"
 },{
     "__media__": true,
     "title": "The Love Bug",
     "type": "Movie",
     "cover": "love_bug.jpg",
-    "file": "The Love Bug (1968).avi",
+    "files": [ "The Love Bug (1968).avi" ],
     "release": "1968"
 },{
     "__media__": true,
@@ -1285,28 +1247,28 @@
     "rating": "G",
     "type": "Movie",
     "cover": "winnie_the_pooh.jpg",
-    "file": "The Many Adventures of Winnie the Pooh (1977).avi",
+    "files": [ "The Many Adventures of Winnie the Pooh (1977).avi" ],
     "release": "1977"
 },{
     "__media__": true,
     "title": "The Million Dollar Duck",
     "type": "Movie",
     "cover": "million_dollar_duck.jpg",
-    "file": "The Million Dollar Duck (1971).avi",
+    "files": [ "The Million Dollar Duck (1971).avi" ],
     "release": "1971"
 },{
     "__media__": true,
     "title": "The Muppet Christmas Carol",
     "type": "Movie",
     "cover": "muppet_christmas_carol.jpg",
-    "file": "The Muppet Christmas Carol (1992).avi",
+    "files": [ "The Muppet Christmas Carol (1992).avi" ],
     "release": "1992"
 },{
     "__media__": true,
     "title": "The Nightmare Before Christmas",
     "type": "Movie",
     "cover": "nightmare_before_christmas.jpg",
-    "file": "The Nightmare Before Christmas (1993).avi",
+    "files": [ "The Nightmare Before Christmas (1993).avi" ],
     "release": "1993"
 },{
     "__media__": true,
@@ -1314,13 +1276,13 @@
     "rating": "G",
     "type": "Movie",
     "cover": "princess_and_the_frog.jpg",
-    "file": "The Princess and The Frog.m4v"
+    "files": [ "The Princess and The Frog.m4v" ]
 },{
     "__media__": true,
     "title": "The Reluctant Dragon",
     "type": "Movie",
     "cover": "reluctant_dragon.jpg",
-    "file": "The Reluctant Dragon (1941).avi",
+    "files": [ "The Reluctant Dragon (1941).avi" ],
     "release": "1941"
 },{
     "__media__": true,
@@ -1328,7 +1290,7 @@
     "rating": "G",
     "type": "Movie",
     "cover": "rescuers.jpg",
-    "file": "The Rescuers (1977).avi",
+    "files": [ "The Rescuers (1977).avi" ],
     "release": "1977"
 },{
     "__media__": true,
@@ -1336,14 +1298,14 @@
     "rating": "G",
     "type": "Movie",
     "cover": "rescuers_down_under.jpg",
-    "file": "The Rescuers Down Under (1990).avi",
+    "files": [ "The Rescuers Down Under (1990).avi" ],
     "release": "1990"
 },{
     "__media__": true,
     "title": "The Spiderwick Chronicles",
     "type": "Movie",
     "cover": "spiderwick_chronicles.jpg",
-    "file": "The Spiderwick Chronicles (2008).avi",
+    "files": [ "The Spiderwick Chronicles (2008).avi" ],
     "release": "2008"
 },{
     "__media__": true,
@@ -1351,7 +1313,7 @@
     "rating": "G",
     "type": "Movie",
     "cover": "sword_in_the_stone.jpg",
-    "file": "The Sword in the Stone (1963).avi",
+    "files": [ "The Sword in the Stone (1963).avi" ],
     "release": "1963"
 },{
     "__media__": true,
@@ -1359,14 +1321,14 @@
     "rating": "G",
     "type": "Movie",
     "cover": "three_caballeros.gif",
-    "file": "The Three Caballeros (1945).avi",
+    "files": [ "The Three Caballeros (1945).avi" ],
     "release": "1945"
 },{
     "__media__": true,
     "title": "The Wild",
     "type": "Movie",
     "cover": "the_wild.jpg",
-    "file": "The Wild (2006).avi",
+    "files": [ "The Wild (2006).avi" ],
     "release": "2006"
 },{
     "__media__": true,
@@ -1374,13 +1336,13 @@
     "rating": "G",
     "type": "Movie",
     "cover": "thomas_and_friends.jpg",
-    "file": "Thomas and Friends.mp4"
+    "files": [ "Thomas and Friends.mp4" ]
 },{
     "__media__": true,
     "title": "Time Bandits",
     "type": "Movie",
     "cover": "time_bandits.jpg",
-    "file": "Time Bandits (1981).avi",
+    "files": [ "Time Bandits (1981).avi" ],
     "release": "1981"
 },{
     "__media__": true,
@@ -1388,14 +1350,14 @@
     "rating": "G",
     "type": "Movie",
     "cover": "tinker_bell_lost_treasure.jpg",
-    "file": "Tinker Bell and the Lost Treasure.avi"
+    "files": [ "Tinker Bell and the Lost Treasure.avi" ]
 },{
     "__media__": true,
     "title": "Toy Story",
     "rating": "G",
     "type": "Movie",
     "cover": "toy_story.jpg",
-    "file": "Toy Story (1995).avi",
+    "files": [ "Toy Story (1995).avi" ],
     "release": "1995"
 },{
     "__media__": true,
@@ -1403,7 +1365,7 @@
     "rating": "G",
     "type": "Movie",
     "cover": "toy_story_2.jpg",
-    "file": "Toy Story 2 (1999).avi",
+    "files": [ "Toy Story 2 (1999).avi" ],
     "release": "1999"
 },{
     "__media__": true,
@@ -1411,14 +1373,14 @@
     "rating": "G",
     "type": "Movie",
     "cover": "toy_story_3.jpg",
-    "file": "Toy Story 3.m4v"
+    "files": [ "Toy Story 3.m4v" ]
 },{
     "__media__": true,
     "title": "Treasure Planet",
     "rating": "G",
     "type": "Movie",
     "cover": "treasure_planet.jpg",
-    "file": "Treasure Planet (2002).avi",
+    "files": [ "Treasure Planet (2002).avi" ],
     "release": "2002"
 },{
     "__media__": true,
@@ -1426,14 +1388,14 @@
     "rating": "G",
     "type": "Movie",
     "cover": "up.jpg",
-    "file": "Up (2009).avi",
+    "files": [ "Up (2009).avi" ],
     "release": "2009"
 },{
     "__media__": true,
     "title": "Victory Through Air Power",
     "type": "Movie",
     "cover": "victory_through_air_power.jpg",
-    "file": "Victory Through Air Power (1943).avi",
+    "files": [ "Victory Through Air Power (1943).avi" ],
     "release": "1943"
 },{
     "__media__": true,
@@ -1441,14 +1403,14 @@
     "rating": "G",
     "type": "Movie",
     "cover": "wall_e.jpg",
-    "file": "WALL- E (2008).avi",
+    "files": [ "WALL- E (2008).avi" ],
     "release": "2008"
 },{
     "__media__": true,
     "title": "Who Framed Roger Rabbit",
     "type": "Movie",
     "cover": "roger_rabbit.jpg",
-    "file": "Who Framed Roger Rabbit (1988).avi",
+    "files": [ "Who Framed Roger Rabbit (1988).avi" ],
     "release": "1988"
 },{
     "__media__": true,
@@ -1456,7 +1418,7 @@
     "rating": "G",
     "type": "Movie",
     "cover": "winnie_pooh_seasons_of_giving.jpg",
-    "file": "Winnie The Pooh-Seasons of Giving (1999).avi",
+    "files": [ "Winnie The Pooh-Seasons of Giving (1999).avi" ],
     "release": "1999"
 },{
     "__media__": true,
@@ -1464,7 +1426,7 @@
     "rating": "G",
     "type": "Movie",
     "cover": "winnie_poohs_grand_adventure.jpg",
-    "file": "Winnie The Pooh's Most Grand Adventure (1997).avi",
+    "files": [ "Winnie The Pooh's Most Grand Adventure (1997).avi" ],
     "release": "1997"
 },{
     "__media__": true,
@@ -1472,252 +1434,55 @@
     "rating": "G",
     "type": "Movie",
     "cover": "wubbzy.jpg",
-    "file": "Wow Wow Wubbzy.m4v"
+    "files": [ "Wow Wow Wubbzy.m4v" ]
 },{
     "__media__": true,
     "title": "Tom and Jerry Vol. 1",
     "rating": "G",
     "type": "Show",
     "cover": "tom_jerry.jpg",
-    "file": "TOM_AND_JERRY_DISC1.m4v"
+    "files": [
+        "TOM_AND_JERRY_DISC1.m4v",
+        "TOM_AND_JERRY_DISC2.m4v",
+        "TOM_AND_JERRY_DISC3.m4v",
+        "TOM_AND_JERRY_DISC4.m4v",
+        "TOM_AND_JERRY_DISC5.m4v",
+        "TOM_AND_JERRY_DISC6.m4v",
+        "TOM_AND_JERRY_DISC7.m4v",
+        "TOM_AND_JERRY_DISC8.m4v"
+    ]
 },{
     "__media__": true,
-    "title": "Tom and Jerry Vol. 2",
+    "title": "My Little Pony: Friendship is Magic",
+    "type": "Show",
+    "cover": "pony.jpg",
     "rating": "G",
-    "type": "Show",
-    "cover": "tom_jerry.jpg",
-    "file": "TOM_AND_JERRY_DISC2.m4v"
-},{
-    "__media__": true,
-    "title": "Tom and Jerry Vol. 3",
-    "rating": "G",
-    "type": "Show",
-    "cover": "tom_jerry.jpg",
-    "file": "TOM_AND_JERRY_DISC3.m4v"
-},{
-    "__media__": true,
-    "title": "Tom and Jerry Vol. 4",
-    "rating": "G",
-    "type": "Show",
-    "cover": "tom_jerry.jpg",
-    "file": "TOM_AND_JERRY_DISC4.m4v"
-},{
-    "__media__": true,
-    "title": "Tom and Jerry Vol. 5",
-    "rating": "G",
-    "type": "Show",
-    "cover": "tom_jerry.jpg",
-    "file": "TOM_AND_JERRY_DISC5.m4v"
-},{
-    "__media__": true,
-    "title": "Tom and Jerry Vol. 6",
-    "rating": "G",
-    "type": "Show",
-    "cover": "tom_jerry.jpg",
-    "file": "TOM_AND_JERRY_DISC6.m4v"
-},{
-    "__media__": true,
-    "title": "Tom and Jerry Vol. 7",
-    "rating": "G",
-    "type": "Show",
-    "cover": "tom_jerry.jpg",
-    "file": "TOM_AND_JERRY_DISC7.m4v"
-},{
-    "__media__": true,
-    "title": "Tom and Jerry Vol. 8",
-    "rating": "G",
-    "type": "Show",
-    "cover": "tom_jerry.jpg",
-    "file": "TOM_AND_JERRY_DISC8.m4v"
-},{
-    "__media__": true,
-    "title": "Yogi Bear",
-    "type": "Folder",
-    "cover": "yogi_bear.jpg",
-    "file": "Yogi Bear",
-    "tags": ["Bear", "Old", "Hana Barbera"],
-    "rating": "TV-Y7",
-    "subratings": ["FV", "L"]
-},{
-    "__media__": true,
-    "title": "MLP Friendship is Magic (Part 1)",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 01 - Friendship is Magic (Part 1).avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP Friendship is Magic (Part 2)",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 02 - Friendship is Magic (Part 2).avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP The Ticket Master",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 03 - The Ticket Master.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP Applebuck Season",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 04 - Applebuck Season.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP Griffon the Brush-Off",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 05 - Griffon the Brush-Off.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP Boast Busters",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 06 - Boast Busters.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP Dragonshy",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 07 - Dragonshy.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP Look Before You Sleep",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 08 - Look Before You Sleep.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP Bridle Gossip",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 09 - Bridle Gossip.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP Swarm of the Century",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 10 - Swarm of the Century.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP Winter Wrap Up",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 11 - Winter Wrap Up.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP Call of the Cutie",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 12 - Call of the Cutie.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP Fall Weather Friends",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 13 - Fall Weather Friends.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP Suited for Success",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 14 - Suited for Success.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP Feeling Pinkie Keen",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 15 - Feeling Pinkie Keen.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP Sonic Rainboom",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 16 - Sonic Rainboom.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP Stare Master",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 17 - Stare Master.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP The Show Stoppers",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 18 - The Show Stoppers.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP A Dog and Pony Show",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 19 - A Dog and Pony Show.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP Green Isn't Your Color",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 20 - Green Isn't Your Color.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP Over a Barrel",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 21 - Over a Barrel.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP A Bird in the Hoof",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 22 - A Bird in the Hoof.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP The Cutie Mark Chronicles",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 23 - The Cutie Mark Chronicles.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP Owl's Well That Ends Well",
-    "type": "Show",
-    "cover": "mlp-owl.png",
-    "file": "MLP - Friendship is Magic - 24 - Owl's Well That Ends Well.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP Party of One",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 25 - Party of One.avi",
-    "rating": "G"
-},{
-    "__media__": true,
-    "title": "MLP The Best Night Ever",
-    "type": "Show",
-    "cover": "pony.jpg",
-    "file": "MLP - Friendship is Magic - 26 - The Best Night Ever.avi",
-    "rating": "G"
+    "files": [
+        "MLP - Friendship is Magic - 01 - Friendship is Magic (Part 1).avi",
+        "MLP - Friendship is Magic - 02 - Friendship is Magic (Part 2).avi",
+        "MLP - Friendship is Magic - 03 - The Ticket Master.avi",
+        "MLP - Friendship is Magic - 04 - Applebuck Season.avi",
+        "MLP - Friendship is Magic - 05 - Griffon the Brush-Off.avi",
+        "MLP - Friendship is Magic - 06 - Boast Busters.avi",
+        "MLP - Friendship is Magic - 07 - Dragonshy.avi",
+        "MLP - Friendship is Magic - 08 - Look Before You Sleep.avi",
+        "MLP - Friendship is Magic - 09 - Bridle Gossip.avi",
+        "MLP - Friendship is Magic - 10 - Swarm of the Century.avi",
+        "MLP - Friendship is Magic - 11 - Winter Wrap Up.avi",
+        "MLP - Friendship is Magic - 12 - Call of the Cutie.avi",
+        "MLP - Friendship is Magic - 13 - Fall Weather Friends.avi",
+        "MLP - Friendship is Magic - 14 - Suited for Success.avi",
+        "MLP - Friendship is Magic - 15 - Feeling Pinkie Keen.avi",
+        "MLP - Friendship is Magic - 16 - Sonic Rainboom.avi",
+        "MLP - Friendship is Magic - 17 - Stare Master.avi",
+        "MLP - Friendship is Magic - 18 - The Show Stoppers.avi",
+        "MLP - Friendship is Magic - 19 - A Dog and Pony Show.avi",
+        "MLP - Friendship is Magic - 20 - Green Isn't Your Color.avi",
+        "MLP - Friendship is Magic - 21 - Over a Barrel.avi",
+        "MLP - Friendship is Magic - 22 - A Bird in the Hoof.avi",
+        "MLP - Friendship is Magic - 23 - The Cutie Mark Chronicles.avi",
+        "MLP - Friendship is Magic - 24 - Owl's Well That Ends Well.avi",
+        "MLP - Friendship is Magic - 25 - Party of One.avi",
+        "MLP - Friendship is Magic - 26 - The Best Night Ever.avi"
+    ]
 }]

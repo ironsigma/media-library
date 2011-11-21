@@ -178,7 +178,10 @@ class MediaLibrary(QMainWindow):
 
     def _start_movie(self):
         media = self.sender().media
-        subprocess.Popen(['/usr/bin/totem', '--replace', MediaLibrary.MOVIES + media.file])
+        args = ['/usr/bin/totem', '--replace']
+        for f in media.files:
+            args.append(MediaLibrary.MOVIES + f.filename)
+        subprocess.Popen(args)
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

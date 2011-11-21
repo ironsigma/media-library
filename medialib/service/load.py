@@ -1,4 +1,4 @@
-from ..model import Tag, Media, Rating, Subrating
+from ..model import Tag, File, Media, Rating, Subrating
 
 class ImportJson(object):
 
@@ -52,9 +52,13 @@ class ImportJson(object):
 
         if '__media__' in obj:
             media = Media(title=obj['title'], type=obj['type'])
+            self.session.add(media)
 
-            if 'file' in obj:
-                media.file = obj['file']
+            if 'files' in obj:
+                for filename in obj['files']:
+                    new_file = File(filename=filename)
+                    self.session.add(new_file)
+                    media.files.append(new_file)
 
             if 'cover' in obj:
                 media.cover = obj['cover']
@@ -95,7 +99,6 @@ class ImportJson(object):
                 if obj['parent'] in self.media_list:
                     media.parent = self.media_list[obj['parent']]
 
-            self.session.add(media)
             return media
 
         return obj

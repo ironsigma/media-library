@@ -1,5 +1,3 @@
-from .media import MediaService
-from .load import ImportJson
+from .scanner import scan_dir
 
-del media
-del load
+del scanner

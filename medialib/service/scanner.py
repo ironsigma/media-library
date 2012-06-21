@@ -5,6 +5,9 @@ class Struct:
     def __init__(self, **entries):
         self.__dict__.update(entries)
 
+    def __repr__(self):
+        return str(self.__dict__)
+
 def scan_dir(path):
     metafile = 'metadata.json'
     mediadir  = '.media'
@@ -15,11 +18,10 @@ def scan_dir(path):
             metastream = open(os.path.join(root, metafile), 'r')
             metadata = json.load(metastream)
 
-            metadata['path'] = root
-            metadata['cover'] = os.path.join(root, metadata['cover'])
+            metadata['cover'] = os.path.realpath(os.path.join(root, metadata['cover']))
 
             for idx, val in enumerate(metadata['files']):
-                metadata['files'][idx] = os.path.join(root, val)
+                metadata['files'][idx] = os.path.realpath(os.path.join(root, val))
 
             medialist.append(Struct(**metadata))
             next

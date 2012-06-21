@@ -96,7 +96,7 @@ class MediaLibrary(QMainWindow):
     def _fetch_covers(self):
         cover_list = []
 
-        medialist = scan_dir('/home/Isabelle/Movies')
+        medialist = scan_dir('/home/isabelle/Movies')
 
         # fetch movies and create covers
         for media in medialist:

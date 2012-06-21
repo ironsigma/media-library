@@ -10,7 +10,7 @@ def scan_dir(path):
     mediadir  = '.media'
     medialist = []
 
-    for root, dirs, files in os.walk(path):
+    for root, dirs, files in os.walk(path, followlinks=True):
         if metafile in files:
             metastream = open(os.path.join(root, metafile), 'r')
             metadata = json.load(metastream)

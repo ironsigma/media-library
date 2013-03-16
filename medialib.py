@@ -96,12 +96,12 @@ class MediaLibrary(QMainWindow):
     def _fetch_covers(self):
         cover_list = []
 
-        medialist = scan_dir('/data/Media/Movies/Children');
+        medialist = scan_dir('/data/Media/Isabelle/Movies');
 
         # fetch movies and create covers
         for media in medialist:
-            if media.rating != 'G':
-                continue
+            #if media.rating != 'G':
+            #    continue
 
             cover = Cover(self, media, MediaLibrary.THUMB_WIDTH, MediaLibrary.THUMB_HEIGHT)
             cover.clicked.connect(self._start_movie)
